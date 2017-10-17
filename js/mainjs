@@ -1,0 +1,3 @@
+$( "#dataTable tbody tr" ).on( "mouseover", function() {
+  console.log( $( this ).text() );
+});
